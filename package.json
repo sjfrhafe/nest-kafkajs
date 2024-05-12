@@ -1,12 +1,12 @@
 {
-  "name": "@sjfrhafe/nestjs-kafkajs",
+  "name": "@sjfrhafe/nest-kafkajs",
   "version": "0.0.4",
   "description": "A NestJS wrapper for KafkaJS",
   "author": "",
   "private": false,
   "license": "UNLICENSED",
-  "main": "dist/libs/kafkajs/index.js",
-  "types": "dist/libs/kafkajs/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/sjfrhafe/nest-kafkajs.git"

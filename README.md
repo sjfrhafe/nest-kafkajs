@@ -1,15 +1,15 @@
-# nestjs-kafkajs
+# nest-kafkajs
 
-NestJS-KafkaJS is a NestJS wrapper for KafkaJS.
+Nest-KafkaJS is a NestJS wrapper for KafkaJS.
 
 ## Getting Started
 
 This library does not implement its own logic but wraps the logic of [kafkajs](https://www.npmjs.com/package/kafkajs) in the nestjs module style.
 
-Install nestjs-kafkajs running
+Install nest-kafkajs running
 
 ```bash
-npm i @sjfrhafe/nestjs-kafkajs kafkajs
+npm i @sjfrhafe/nest-kafkajs kafkajs
 ```
 
 ### KafkaJS Module
