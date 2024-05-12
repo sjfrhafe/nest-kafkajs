@@ -7,6 +7,10 @@
   "license": "UNLICENSED",
   "main": "dist/libs/kafkajs/index.js",
   "types": "dist/libs/kafkajs/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjfrhafe/nest-kafkajs.git"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
