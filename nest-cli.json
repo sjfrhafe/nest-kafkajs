@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "type": "library",
+  "root": "libs/kafkajs",
+  "entryFile": "index",
+  "sourceRoot": "libs/kafkajs/src",
+  "compilerOptions": {
+    "tsConfigPath": "libs/kafkajs/tsconfig.lib.json"
+  },
+  "projects": {
+    "kafkajs": {
+      "type": "library",
+      "root": "libs/kafkajs",
+      "entryFile": "index",
+      "sourceRoot": "libs/kafkajs/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/kafkajs/tsconfig.lib.json"
+      }
+    }
+  },
+  "monorepo": true
+}
