@@ -1,6 +1,6 @@
 {
   "name": "@sjfrhafe/nestjs-kafkajs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A NestJS wrapper for KafkaJS",
   "author": "",
   "private": false,
